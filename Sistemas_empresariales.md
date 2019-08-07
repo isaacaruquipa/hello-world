@@ -134,5 +134,6 @@ public void doPost (HttpServletRequest request,
 public void doGet (HttpServletRequest request,
  HttpServletResponse response)
  throws ServletException, IOException {
-public void destroy(){};
+public void destroy(){
+};
 
