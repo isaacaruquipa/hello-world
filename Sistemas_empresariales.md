@@ -144,6 +144,7 @@ Un servlet es una clase Javaque hereda de la clase HttpServlet. Los cinco métod
     public void doGet (HttpServletRequest request,
           HttpServletResponse response)
           throws ServletException, IOException {
+          }
     public void destroy(){
     };
 
