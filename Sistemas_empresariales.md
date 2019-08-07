@@ -1,11 +1,7 @@
 # Sistemas empresariales
 ## ¿Que es un sistema empresarial?
-Es sistema que tiene un impacto muy importante en el funcionamiento de 
-la organización o negocio y cuya falla traería graves consecuencias.
-Normalmente que ofrece alta calidad de servicio, gestiona con grandes 
-volúmenes de datos, disponible de forma continua y es capaz de soportar 
-cualquier organización grande.
-* En el desarrollo de aplicaciones de misión crítica se consideran
+Es sistema que tiene un impacto muy importante en el funcionamiento de  la organización o negocio y cuya falla traería graves consecuencias. Normalmente que ofrece alta calidad de servicio, gestiona con grandes  volúmenes de datos, disponible de forma continua y es capaz de soportar  cualquier organización grande.
+**En el desarrollo de aplicaciones de misión crítica se consideran**
  * Plataforma tecnológica
  * Alta disponibilidad
  * Escalabilidad
@@ -22,15 +18,31 @@ cualquier organización grande.
 * Arquitectura multicapa
 
 ## Instituciones que requerirían aplicaciones de misión crítica. 
+ **Las instituciones que requeririan las aplicaciones de misión critica son:**
+ * Universidades(Repositorio), Las universidades necesitan almacenar y procesar gran cantidad de informacion digital sobre investigacion     y produccion academica.
+ * Unidades Educativas, Para almacenar datos de tanto de estudiantes como usuarios externos y proveer informacion sobre avance academico para cada usuario. Tambien necesita almacenar material digital academico segun a cada grado.
+ * Institutos, Necesitan generar estadisticas y prover informacion necesaria para que personas con ganas de superarse se registren y usen el sistema.
+ * Bancos electronicos, necesitan la mayor disponilidad, escalibilidad, y seguridad de la informacion e informatica.
+ * Brockers(Plataformas de venta y compra de divisas), Estos sistemas necesitan estar en linea las 24 horas y ser escalables a nivel de operaciones transaccionales(compra/venta) de divisas y criptomonedas.
+ * Servicio de reservaciones de buses en linea.
+   
 
 ## Diferencias entre la escalabilidad horizontal y escalabilidad vertical
+
+La escalabilidad vertical o hacia arriba, este es el más simple, pues significa crecer el hardware de uno de los nodos, es decir aumentar el hardware por uno más potente, como disco duro, memoria, procesador, etc. pero también puede ser la migración completa del hardware por uno más potente. El esfuerzo de este crecimiento es mínimo, pues no tiene repercusiones en el software, ya que solo será respaldar y migrar los sistemas al nuevo hardware.
+![Escalabilidad Vertical](/images/https://www.oscarblancarteblog.com/wp-content/uploads/2017/03/escalamiento-horizontal.png)
+
+El escalamiento horizontal es sin duda el más potente, pero también el más complicado. Este modelo implica tener varios servidores (conocidos como Nodos) trabajando como un todo. Se crea una red de servidores conocida como Cluster, con la finalidad de repartirse el trabajo entre todos nodos del cluster, cuando el performance del cluster se ve afectada con el incremento de usuarios, se añaden nuevos nodos al cluster, de esta forma a medida que es requeridos, más y más nodos son agregados al cluster.
+Debemos entender que cada uno ofrece ventajas y desventajas y no existe uno mejor que otro; pero si existen escenarios donde uno puede funcionar mejor que el otro. Lo ideal sería hacer un análisis para cada escenario y determinar el mejor.
+
+
 # Servidor
 Un servidor es una computadora que formando parte de una red provee servicios 
 a otras computadoras denominadas clientes.
 
 # Que es un servidor Web y que es un servidor de aplicaciones
-Un servidor web dispositivo de software que proporcionan servicios de paginas web 
-a las  computadoras cliente.
+Un servidor web programa informático que procesa una aplicación del lado del servidor, realizando conexiones bidireccionales o unidireccionales y síncronas o asíncronas con el cliente y generando o cediendo una respuesta en cualquier lenguaje o Aplicación del lado del cliente.
+
 Un servidor de aplicaciones es un dispositivo de software que proporcionan servicios 
 de aplicación a las computadoras cliente.
  Un servidor de aplicaciones generalmente gestiona la mayor
@@ -52,11 +64,8 @@ Diseñado a principios de la década de 1990, HTTP es un protocolo ampliable, qu
 
 ## Elementos RESPONSE en HTTP
 
-## Describa con un gráfico la arquitectura Java EE
-Es una plataforma de programación para
-desarrollar y ejecutar software de aplicaciones en Lenguaje de programación Java con
-arquitectura de n-niveles distribuida, basándose ampliamente en componentes de
-software modulares ejecutándose sobre un servidor de aplicaciones.
+## Java EE(Enterprice Edititión
+Es una plataforma de programación paradesarrollar y ejecutar software de aplicaciones en Lenguaje de programación Java con arquitectura de n-niveles distribuida, basándose ampliamente en componentes de software modulares ejecutándose sobre un servidor de aplicaciones. 
 Java EE incluye varias especificaciones de API, tales como JDBC, RMI, e-mail, JMS,
 Servicios Web, XML, etc., y define como coordinarlos. Java EE también establece algunas
 especificaciones únicas para Java EE de algunos componentes. Estas incluyen Enterprise
