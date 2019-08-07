@@ -30,7 +30,7 @@ Es sistema que tiene un impacto muy importante en el funcionamiento de  la organ
 ## Diferencias entre la escalabilidad horizontal y escalabilidad vertical
 
 La escalabilidad vertical o hacia arriba, este es el más simple, pues significa crecer el hardware de uno de los nodos, es decir aumentar el hardware por uno más potente, como disco duro, memoria, procesador, etc. pero también puede ser la migración completa del hardware por uno más potente. El esfuerzo de este crecimiento es mínimo, pues no tiene repercusiones en el software, ya que solo será respaldar y migrar los sistemas al nuevo hardware.
-![Escalabilidad Vertical](/images/https://www.oscarblancarteblog.com/wp-content/uploads/2017/03/escalamiento-horizontal.png)
+![Escalabilidad Vertical](https://www.oscarblancarteblog.com/wp-content/uploads/2017/03/escalamiento-horizontal.png)
 
 El escalamiento horizontal es sin duda el más potente, pero también el más complicado. Este modelo implica tener varios servidores (conocidos como Nodos) trabajando como un todo. Se crea una red de servidores conocida como Cluster, con la finalidad de repartirse el trabajo entre todos nodos del cluster, cuando el performance del cluster se ve afectada con el incremento de usuarios, se añaden nuevos nodos al cluster, de esta forma a medida que es requeridos, más y más nodos son agregados al cluster.
 Debemos entender que cada uno ofrece ventajas y desventajas y no existe uno mejor que otro; pero si existen escenarios donde uno puede funcionar mejor que el otro. Lo ideal sería hacer un análisis para cada escenario y determinar el mejor.
