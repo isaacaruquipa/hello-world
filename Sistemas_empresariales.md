@@ -131,16 +131,16 @@ Para que un entorno de ejecución pueda decir que es Java EE debe implementar y 
 ## Investigue los métodos más utilizados de las clases HttpServlet, HttpServletRequest y HttpServletResponse
 Un servlet es una clase Javaque hereda de la clase HttpServlet. Los cinco métodos más
 comunes de un servlet son:
-  --- public void init()throws ServletException{}
-  public void service(HttpServletRequest request,
+    public void init()throws ServletException{}
+    public void service(HttpServletRequest request,
           HttpServletResponse response)
           throws ServletException, IOException {
-  public void doPost (HttpServletRequest request,
+    public void doPost (HttpServletRequest request,
           HttpServletResponse response)
           throws ServletException, IOException {
-  public void doGet (HttpServletRequest request,
+    public void doGet (HttpServletRequest request,
           HttpServletResponse response)
           throws ServletException, IOException {
-  public void destroy(){
-  };---
+    public void destroy(){
+    };
 
