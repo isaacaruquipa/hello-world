@@ -63,22 +63,25 @@ Clientes y servidores se comunican intercambiando mensajes individuales (en cont
 
 Diseñado a principios de la década de 1990, HTTP es un protocolo ampliable, que ha ido evolucionando con el tiempo. Es lo que se conoce como un protocolo de la capa de aplicación, y se transmite sobre el protocolo TCP, o el protocolo encriptado TLS, aunque teóricamente podría usarse cualquier otro protocolo fiable. Gracias a que es un protocolo capaz de ampliarse, se usa no solo para transmitir documentos de hipertexto (HTML), si no que además, se usa para transmitir imágenes o vídeos, o enviar datos o contenido a los servidores, como en el caso de los formularios de datos. HTTP puede incluso ser utilizado para transmitir partes de documentos, y actualizar páginas Web en el acto.
 
-## Elementos REQUEST en HTTP
+## Las peticiones y respuestas HTTP, comparten una estructura similar, compuesta de:
 
-## Elementos RESPONSE en HTTP
+11. Una línea de inicio ('start-line' en inglés) describiendo la petición a ser implementada, o su estado, sea de éxito o fracaso. Esta línea de comienzo, es siempre una única línea. 
+2. Un grupo opcional de cabeceras HTTP, indicando la petición o describiendo el cuerpo ('body' en inglés) que se incluye en el mensaje. 
+3. Una línea vacía ('empty-line' en inglés) indicando toda la meta-información ha sido enviada.
+6. Un campo de cuerpo de mensaje opcional ('body' en inglés) que lleva los datos asociados con la petición (como contenido de un formulario HTML), o los archivos o documentos asociados a una respuesta (como una página HTML, o un archivo de audio, vídeo ... ) . La presencia del cuerpo y su tamaño es indicada en la línea de inicio y las cabeceras HTTP.
+
+La línea de inicio y las cabeceras HTTP, del mensaje, son conocidas como la cabeza de la peticiones, mientras que su contenido en datos se conoce como el cuerpo del mensaje.
+![Grafico2 protocolo HTTP](https://mdn.mozillademos.org/files/13827/HTTPMsgStructure2.png)
+
 
 ## Java EE(Enterprice Edititión)
 
 Es una plataforma de programación paradesarrollar y ejecutar software de aplicaciones en Lenguaje de programación Java con arquitectura de n-niveles distribuida, basándose ampliamente en componentes de software modulares ejecutándose sobre un servidor de aplicaciones. 
+
 ![Grafico Java EE](https://picodotdev.github.io/blog-bitix/2016/03/introduccion-y-nuevas-caracteristicas-de-java-ee-7/images/aplicaciones-multicapa-javaee.png)
-Java EE incluye varias especificaciones de API, tales como JDBC, RMI, e-mail, JMS,
-Servicios Web, XML, etc., y define como coordinarlos. Java EE también establece algunas especificaciones únicas para Java EE de algunos componentes.
-Estas incluyen Enterprise JavaBeans, Servlets, JavaServer Pages y varias tecnologías de servicios web. Esto
-permite al desarrollador crear una aplicación de Empresa que sea portable entre
-plataformas y escalable. Otros beneficios añadidos son, por ejemplo, que el servidor de
-aplicaciones puede manejar las transacciones, seguridad, escalabilidad, concurrencia y
-gestión de los componentes que son desplegados, significando que los desarrolladores
-pueden concentrarse más en la lógica de negocio de los componentes en lugar de las
+
+Java EE incluye varias especificaciones de API, tales como JDBC, RMI, e-mail, JMS, Servicios Web, XML, etc., y define como coordinarlos. Java EE también establece algunas especificaciones únicas para Java EE de algunos componentes.
+Estas incluyen Enterprise JavaBeans, Servlets, JavaServer Pages y varias tecnologías de servicios web. Esto permite al desarrollador crear una aplicación de Empresa que sea portable entre plataformas y escalable. Otros beneficios añadidos son, por ejemplo, que el servidor de aplicaciones puede manejar las transacciones, seguridad, escalabilidad, concurrencia y gestión de los componentes que son desplegados, significando que los desarrolladores pueden concentrarse más en la lógica de negocio de los componentes en lugar de las
 tareas de mantenimiento de bajo nivel. 
 
 
@@ -100,35 +103,35 @@ Java EE define los siguientes tipos de componentes:
 * Componente de negocio: EJB
 * Cada tipo cubre necesidades concretas y se basan en APIs especificas 
 
-Java EE define los siguientes servicios:
+**Java EE define los siguientes servicios:**
 
-De directorio: para la indexación y búsqueda de
+**De directorio:** para la indexación y búsqueda de
 componentes y recursos
-De despliegue: para poder personalizar los componentes y
+**De despliegue:** para poder personalizar los componentes y
 recursos
 
-De transaccionalidad: para poder ejecutar distintas acciones en una misma unidad transaccional
+**De transaccionalidad:** para poder ejecutar distintas acciones en una misma unidad transaccional
 
-De seguridad: para poder autenticar y autorizar a los
+**De seguridad:** para poder autenticar y autorizar a los
 usuarios de la aplicación
 
-De acceso a datos: para facilitar el acceso a Bases de Datos
+**De acceso a datos:** para facilitar el acceso a Bases de Datos
 Servicios Java EE
 
-De conectividad: para poder acceder fácilmente a distintos EIS
+**De conectividad:** para poder acceder fácilmente a distintos EIS
 
-De mensajería: para poder comunicarse con otros componentes, aplicaciones o EIS
+**De mensajería:** para poder comunicarse con otros componentes, aplicaciones o EIS
 
 Para que un entorno de ejecución pueda decir que es Java EE debe implementar y soportar:
-   Todos los tipos de componentes
-   Todos los tipos de contenedores
-   Todos los servicios
+  * Todos los tipos de componentes
+  * Todos los tipos de contenedores
+  * Todos los servicios
 
 
 ## Investigue los métodos más utilizados de las clases HttpServlet, HttpServletRequest y HttpServletResponse
 Un servlet es una clase Javaque hereda de la clase HttpServlet. Los cinco métodos más
 comunes de un servlet son:
-  public void init()throws ServletException{}
+  --- public void init()throws ServletException{}
   public void service(HttpServletRequest request,
           HttpServletResponse response)
           throws ServletException, IOException {
@@ -139,5 +142,5 @@ comunes de un servlet son:
           HttpServletResponse response)
           throws ServletException, IOException {
   public void destroy(){
-  };
+  };---
 
