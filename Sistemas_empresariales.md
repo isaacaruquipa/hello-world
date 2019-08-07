@@ -19,12 +19,12 @@ Es sistema que tiene un impacto muy importante en el funcionamiento de  la organ
 
 ## Instituciones que requerirían aplicaciones de misión crítica. 
  **Las instituciones que requeririan las aplicaciones de misión critica son:**
- * Universidades(Repositorio), Las universidades necesitan almacenar y procesar gran cantidad de informacion digital sobre investigacion     y produccion academica.
- * Unidades Educativas, Para almacenar datos de tanto de estudiantes como usuarios externos y proveer informacion sobre avance academico para cada usuario. Tambien necesita almacenar material digital academico segun a cada grado.
- * Institutos, Necesitan generar estadisticas y prover informacion necesaria para que personas con ganas de superarse se registren y usen el sistema.
- * Bancos electronicos, necesitan la mayor disponilidad, escalibilidad, y seguridad de la informacion e informatica.
- * Brockers(Plataformas de venta y compra de divisas), Estos sistemas necesitan estar en linea las 24 horas y ser escalables a nivel de operaciones transaccionales(compra/venta) de divisas y criptomonedas.
- * Servicio de reservaciones de buses en linea.
+ * **Universidades(Repositorio)**, Las universidades necesitan almacenar y procesar gran cantidad de informacion digital sobre investigacion     y produccion academica.
+ * **Unidades Educativas**, Para almacenar datos de tanto de estudiantes como usuarios externos y proveer informacion sobre avance academico para cada usuario. Tambien necesita almacenar material digital academico segun a cada grado.
+ * **Institutos**, Necesitan generar estadisticas y prover informacion necesaria para que personas con ganas de superarse se registren y usen el sistema.
+ * **Bancos electronicos**, necesitan la mayor disponilidad, escalibilidad, y seguridad de la informacion e informatica.
+ * **Brockers(Plataformas de venta y compra de divisas)**, Estos sistemas necesitan estar en linea las 24 horas y ser escalables a nivel de operaciones transaccionales(compra/venta) de divisas y criptomonedas.
+ * **Servicio de reservaciones de buses en linea**.
    
 
 ## Diferencias entre la escalabilidad horizontal y escalabilidad vertical
@@ -34,6 +34,7 @@ La escalabilidad vertical o hacia arriba, este es el más simple, pues significa
 
 El escalamiento horizontal es sin duda el más potente, pero también el más complicado. Este modelo implica tener varios servidores (conocidos como Nodos) trabajando como un todo. Se crea una red de servidores conocida como Cluster, con la finalidad de repartirse el trabajo entre todos nodos del cluster, cuando el performance del cluster se ve afectada con el incremento de usuarios, se añaden nuevos nodos al cluster, de esta forma a medida que es requeridos, más y más nodos son agregados al cluster.
 Debemos entender que cada uno ofrece ventajas y desventajas y no existe uno mejor que otro; pero si existen escenarios donde uno puede funcionar mejor que el otro. Lo ideal sería hacer un análisis para cada escenario y determinar el mejor.
+![Escalabilidad Horizontal](https://www.oscarblancarteblog.com/wp-content/uploads/2017/03/escalamiento-vertical-failover.png)
 
 
 # Servidor
@@ -52,11 +53,13 @@ la aplicación.
 de aplicación son la centralización y al disminución de la
 complejidad en el desarrollo de aplicaciones
 
-#Protocolo HTTP
+# Protocolo HTTP
 HTTP, de sus siglas en inglés: "Hypertext Transfer Protocol", es el nombre de un protocolo el cual nos permite realizar una petición de datos y recursos, como pueden ser documentos HTML. Es la base de cualquier intercambio de datos en la Web, y un protocolo de estructura cliente-servidor, esto quiere decir que una petición de datos es iniciada por el elemento que recibirá los datos (el cliente), normalmente un navegador Web. Así, una página web completa resulta de la unión de distintos sub-documentos recibidos, como, por ejemplo: un documento que especifique el estilo de maquetación de la página web (CSS), el texto, las imágenes, vídeos, scripts, etc... 
+![Grafico protocolo HTTP](https://mdn.mozillademos.org/files/13677/Fetching_a_page.png)
 
 
 Clientes y servidores se comunican intercambiando mensajes individuales (en contraposición a las comunicaciones que utilizan flujos continuos de datos). Los mensajes que envía el cliente, normalmente un navegador Web, se llaman peticiones, y los mensajes enviados por el servidor se llaman respuestas.
+![Grafico2 protocolo HTTP](https://mdn.mozillademos.org/files/13673/HTTP%20&%20layers.png)
 
 Diseñado a principios de la década de 1990, HTTP es un protocolo ampliable, que ha ido evolucionando con el tiempo. Es lo que se conoce como un protocolo de la capa de aplicación, y se transmite sobre el protocolo TCP, o el protocolo encriptado TLS, aunque teóricamente podría usarse cualquier otro protocolo fiable. Gracias a que es un protocolo capaz de ampliarse, se usa no solo para transmitir documentos de hipertexto (HTML), si no que además, se usa para transmitir imágenes o vídeos, o enviar datos o contenido a los servidores, como en el caso de los formularios de datos. HTTP puede incluso ser utilizado para transmitir partes de documentos, y actualizar páginas Web en el acto.
 
@@ -64,12 +67,13 @@ Diseñado a principios de la década de 1990, HTTP es un protocolo ampliable, qu
 
 ## Elementos RESPONSE en HTTP
 
-## Java EE(Enterprice Edititión
+## Java EE(Enterprice Edititión)
+
 Es una plataforma de programación paradesarrollar y ejecutar software de aplicaciones en Lenguaje de programación Java con arquitectura de n-niveles distribuida, basándose ampliamente en componentes de software modulares ejecutándose sobre un servidor de aplicaciones. 
+![Grafico Java EE](https://picodotdev.github.io/blog-bitix/2016/03/introduccion-y-nuevas-caracteristicas-de-java-ee-7/images/aplicaciones-multicapa-javaee.png)
 Java EE incluye varias especificaciones de API, tales como JDBC, RMI, e-mail, JMS,
-Servicios Web, XML, etc., y define como coordinarlos. Java EE también establece algunas
-especificaciones únicas para Java EE de algunos componentes. Estas incluyen Enterprise
-JavaBeans, Servlets, JavaServer Pages y varias tecnologías de servicios web. Esto
+Servicios Web, XML, etc., y define como coordinarlos. Java EE también establece algunas especificaciones únicas para Java EE de algunos componentes.
+Estas incluyen Enterprise JavaBeans, Servlets, JavaServer Pages y varias tecnologías de servicios web. Esto
 permite al desarrollador crear una aplicación de Empresa que sea portable entre
 plataformas y escalable. Otros beneficios añadidos son, por ejemplo, que el servidor de
 aplicaciones puede manejar las transacciones, seguridad, escalabilidad, concurrencia y
@@ -124,16 +128,16 @@ Para que un entorno de ejecución pueda decir que es Java EE debe implementar y 
 ## Investigue los métodos más utilizados de las clases HttpServlet, HttpServletRequest y HttpServletResponse
 Un servlet es una clase Javaque hereda de la clase HttpServlet. Los cinco métodos más
 comunes de un servlet son:
-public void init()throws ServletException{}
-public void service(HttpServletRequest request,
- HttpServletResponse response)
- throws ServletException, IOException {
-public void doPost (HttpServletRequest request,
- HttpServletResponse response)
- throws ServletException, IOException {
-public void doGet (HttpServletRequest request,
- HttpServletResponse response)
- throws ServletException, IOException {
-public void destroy(){
-};
+  public void init()throws ServletException{}
+  public void service(HttpServletRequest request,
+          HttpServletResponse response)
+          throws ServletException, IOException {
+  public void doPost (HttpServletRequest request,
+          HttpServletResponse response)
+          throws ServletException, IOException {
+  public void doGet (HttpServletRequest request,
+          HttpServletResponse response)
+          throws ServletException, IOException {
+  public void destroy(){
+  };
 
