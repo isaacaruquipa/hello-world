@@ -7,6 +7,8 @@ Es un sistema que tiene un impacto muy importante en el funcionamiento de  la or
  * Escalabilidad
  * Seguridad
  * Mantenimiento
+ <h1> video de Motivacion</h1>
+ <video src="https://www.youtube.com/watch?v=XfhOdfwxOYI" width="500"  heigth="450" controls>
 
 ## Caracteristicas mas importantes de una aplicación empresarial
 * Acceso a bases de datos, usualmente a bases de datos relacionales.
