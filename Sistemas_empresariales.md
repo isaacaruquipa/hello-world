@@ -4,7 +4,7 @@
  <h1>SISTEMAS EMPRESARIALES</h1>
 </center>
 
-| Carrera:       | Ingenieria de sistemas    |
+| Carrera:       | Ingenieria de sistemas    ||
 | ---------------|--------------------------:|
 | Materia:       | Tecnologias emergentes II |
 | ---------------|--------------------------:|
