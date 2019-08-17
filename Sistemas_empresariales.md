@@ -1,7 +1,7 @@
 
 <center> 
- # PRÁCTICA Nro 1
-# SISTEMAS EMPRESARIALES
+ <h1> PRÁCTICA Nro 1</h1>
+ <h1>SISTEMAS EMPRESARIALES</h1>
 </center>
 
 | Carrera: | Ingenieria de sistemas | 
