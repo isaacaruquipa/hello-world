@@ -3,7 +3,7 @@
  <h1> PRÁCTICA Nro 1</h1>
  <h1>SISTEMAS EMPRESARIALES</h1>
 </center>
-
+| ---------------|--------------------------:|
 | Carrera:       | Ingenieria de sistemas    |
 | Materia:       | Tecnologias emergentes II | 
 | C.I.           | 9257004                   | 
