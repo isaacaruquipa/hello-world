@@ -9,6 +9,50 @@
 | Materia:               | Tecnologias emergentes II                                 |                          |
 | C.I.                   | 9257004                                                   |                          |
 | Lugar y fecha:         | 13/08/2019                                                |                          | 
+
+<table border="1">
+        <tr>
+           <td>
+                 Carrera: 
+           </td>
+           <td>
+            Ingenieria de Sistemas
+           </td>
+           <td rowspan="5">
+               <h1  align="center">A</h1>
+              Inicial paterno
+           </td>
+
+        </tr>
+        <tr>
+            <td>Materia: </td>
+            <td>Tecnologias emergentes II</td>
+        </tr>
+         <tr>
+             <td>
+                 Apellidos y nombres:
+             </td>
+             <td>
+                 Aruquipa Machaca Isaac Santos
+             </td>
+         </tr>
+         <tr>
+             <td>
+                 C.I:
+             </td>
+             <td>
+              9247004
+             </td>
+         </tr>
+         <tr>
+             <td>
+                 Lugar y fecha: 
+             </td>
+             <td>
+                 El alto 12 de agosto de 2019
+             </td>
+         </tr>
+    </table>
   
 
 ## ¿Que es un sistema empresarial?
