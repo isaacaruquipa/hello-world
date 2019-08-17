@@ -4,10 +4,11 @@
  <h1>SISTEMAS EMPRESARIALES</h1>
 </center>
 
-|  Carrera:       | Ingenieria de sistemas    |
-|  Materia:       | Tecnologias emergentes II | 
-|  C.I.           | 9257004                   | 
-|  Lugar y fecha: | 13/08/2019                | 
+| Carrera:       | Ingenieria de sistemas    |
+| ---------------|--------------------------:|
+| Materia:       | Tecnologias emergentes II | 
+| C.I.           | 9257004                   | 
+| Lugar y fecha: | 13/08/2019                | 
   
   
 | Modelo | Color   | Precio |
