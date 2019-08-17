@@ -10,8 +10,9 @@
 | C.I.                   | 9257004                                                   |                          |
 | Lugar y fecha:         | 13/08/2019                                                |                          | 
 
+
 <table border="1">
-        <tr>
+       <tr>
            <td>
                  Carrera: 
            </td>
