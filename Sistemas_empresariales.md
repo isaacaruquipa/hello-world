@@ -7,54 +7,10 @@
 | Carrera:               | Ingenieria de sistemas                                    |                          |
 | -----------------------|-----------------------------------------------------------| ------------------------:|
 | Materia:               | Tecnologias emergentes II                                 |                          |
+| Apellidos y Nombres:   | Aruquipa Machaca Isaac Santos                             |                          |
 | C.I.                   | 9257004                                                   |                          |
 | Lugar y fecha:         | 13/08/2019                                                |                          | 
 
-
-<table border="1">
-       <tr>
-           <td>
-                 Carrera: 
-           </td>
-           <td>
-            Ingenieria de Sistemas
-           </td>
-           <td rowspan="5">
-               <h1  align="center">A</h1>
-              Inicial paterno
-           </td>
-
-        </tr>
-        <tr>
-            <td>Materia: </td>
-            <td>Tecnologias emergentes II</td>
-        </tr>
-         <tr>
-             <td>
-                 Apellidos y nombres:
-             </td>
-             <td>
-                 Aruquipa Machaca Isaac Santos
-             </td>
-         </tr>
-         <tr>
-             <td>
-                 C.I:
-             </td>
-             <td>
-              9247004
-             </td>
-         </tr>
-         <tr>
-             <td>
-                 Lugar y fecha: 
-             </td>
-             <td>
-                 El alto 12 de agosto de 2019
-             </td>
-         </tr>
-    </table>
-  
 
 ## ¿Que es un sistema empresarial?
 Es un sistema que tiene un impacto muy importante en el funcionamiento de  la organización o negocio y cuya falla traería graves consecuencias. Normalmente que ofrece alta calidad de servicio, gestiona con grandes  volúmenes de datos, disponible de forma continua y es capaz de soportar  cualquier organización grande.
