@@ -1,6 +1,6 @@
 
 <center> 
- <h1> PRÁCTICA Nro 1</h1>
+                                                 <h1> PRÁCTICA Nro 1</h1>
  <h1>SISTEMAS EMPRESARIALES</h1>
 </center>
 
