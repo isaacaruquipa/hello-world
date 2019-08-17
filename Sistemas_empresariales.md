@@ -1,6 +1,8 @@
 
-# PRÁCTICA Nro 1
+<center> 
+ # PRÁCTICA Nro 1
 # SISTEMAS EMPRESARIALES
+</center>
 
 | Carrera: | Ingenieria de sistemas | |
 | Materia: | Tecnologias emergentes I | |
